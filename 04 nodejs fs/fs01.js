@@ -97,10 +97,10 @@ var fs=require('fs');
 
 //9.fs.unlink 删除文件
 
-fs.unlink('04 nodejs fs/index',function (err) {
-                    if(err){
-        console.log(err);
-        return false;
-    }
-        console.log('删除文件成功');
-})
+// fs.unlink('04 nodejs fs/index',function (err) {
+//                     if(err){
+//         console.log(err);
+//         return false;
+//     }
+//         console.log('删除文件成功');
+// })
