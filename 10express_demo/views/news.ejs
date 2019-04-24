@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<%-include public/header.ejs%>
+<br>
+<img src="image/baidu.png">
+<ul>
+    <%for(var i=0;i<list.length;i++){%>
+    <li>
+    <%=list[i]%>
+    </li>
+    <%}%>
+</ul>
+</body>
+</html>
