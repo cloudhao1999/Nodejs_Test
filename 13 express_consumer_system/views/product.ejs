@@ -52,34 +52,17 @@
                     </thead>
                     <tbody>
 
-                    <tr>
-                        <td>1</td>
-                        <td>图标</td>
-                        <td>背包1111111</td>
-                        <td>20元</td>
-                        <td>10元</td>
-                      
-                        <td class="text-center">修改  删除</td>
-                    </tr>
+                    <%for(var i=0;i<list.length;i++){%>
 					   <tr>
-                        <td>2</td>
+                        <td><%=i+1%></td>
                         <td>图标</td>
-                        <td>thinpad笔记本电脑</td>
-                        <td>20元</td>
-                        <td>10元</td>
+                        <td><%=list[i].title%></td>
+                        <td><%=list[i].price%></td>
+                        <td><%=list[i].fee%></td>
                       
                         <td class="text-center">修改  删除</td>
                     </tr>
-					   <tr>
-                        <td>3</td>
-                        <td>图标</td>
-                        <td>iphone7</td>
-                        <td>20元</td>
-                        <td>10元</td>
-                      
-                        <td class="text-center">修改  删除</td>
-                    </tr>
-
+<%}%>
                     </tbody>
                 </table>
             </div>
